@@ -37,3 +37,59 @@ Propose better solution according to BEM to following examples
 <p class="card__description__text">
 Lorem ipsum dolor...
 </p>
+
+### Example 6
+Tip 1: what is a purpose of section? does it make sense to call it "card"?
+Tip 2: there are more mistakes
+<section class="card">
+  <article class="card article__dog">
+    <aside class="article__dog aside">
+      <figure class="article__dog figure">
+        <img src="https://placedog.net/200/300?id=1" alt="Dummy Image" class="" />
+      </figure>
+    </aside>
+  </article>
+</section>
+
+### Example 7
+.button--styled--disabled{
+  background-color: orange;
+}
+
+### Example 8
+<article class="card cat--card">
+...
+</article>
+
+### Example 9
+<article class="card card--dog card--dog--type1">
+...
+</article>
+
+### Example 10
+.card {
+  border: solid 1px #000;
+  max-width: 360px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+### Example 11
+.card--dog--type1 header{
+  background-color: green;
+}
+.card--dog--type2 header{
+  background-color: purple;
+}
+.card--dog--type3 header{
+  background-color: orange;
+}
+
