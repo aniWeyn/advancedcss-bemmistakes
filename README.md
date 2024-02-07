@@ -45,7 +45,7 @@ Tip 2: there are more mistakes
   <article class="card article__dog">
     <aside class="article__dog aside">
       <figure class="article__dog figure">
-        <img src="https://placedog.net/200/300?id=1" alt="Dummy Image" class="" />
+        <img src="https://placedog.net/200/300?id=89" alt="Dummy Image" class="" />
       </figure>
     </aside>
   </article>
@@ -93,3 +93,21 @@ Tip 2: there are more mistakes
   background-color: orange;
 }
 
+### Example 12
+<button class="btn btn--primary btn--disabled" name="favorite">
+  <span>🚀 </span>
+  <span> Add to basket </span>
+</button>
+
+### Example 13
+Tip: why is not good idea to specify type of felx applied to element?
+<main class="main__flex-wrap">
+...
+</main>
+
+### Example 14
+<footer class="card__options">
+  <div class="card__options-buttons">
+  ...
+  </div>
+</footer>
