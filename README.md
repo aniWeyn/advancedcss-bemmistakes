@@ -124,3 +124,17 @@ Propose better solution according to BEM to following examples
        ...
       </div>
     </footer>
+
+### Example 16
+    <header class="">
+        <h2 class="card__dog--poster">Dog Poster</h2>
+        <h3 class="">Dog poster - 50nok</h3>
+    </header>
+
+### Example 17
+    <header class="card__header">
+        <h2 class="card__title--cat">NEW! Cat Poster</h2>
+        <h3 class="card__subtitle">Cat poster - 50nok</h3>
+    </header>
+
+### Example 18
