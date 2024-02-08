@@ -87,15 +87,17 @@ Propose better solution according to BEM to following examples
     }
 
 ### Example 11
-   .card--dog--type1 header{
-    background-color: green;
-  }
-   .card--dog--type2 header{
-    background-color: purple;
-  }
-   .card--dog--type3 header{
-    background-color: orange;
-  }
+    .card--dog--type1 header{
+        background-color: green;
+    }
+
+    .card--dog--type2 header{
+        background-color: purple;
+    }
+
+    .card--dog--type3 header{
+        background-color: orange;
+    }
 
 ### Example 12
     <button class="btn btn--primary btn--disabled" name="favorite">
