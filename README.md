@@ -36,7 +36,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
 > [!NOTE]
 > this solution can be correct in case class `card_header` consist of some styles that cannot be inherit and needed to be specified and are shared between all headers
 
-## Example 3
+## Example 2
     .card--dog {
         background-color: pink;
     }
@@ -45,7 +45,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         background-color: yellow;
     }
 
-## Example 4
+## Example 3
     .Newcard {
       border: solid 1px rgb(255, 242, 0);
       border-width: 2rem;
@@ -53,12 +53,12 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
       padding: 10px;
       }
 
-## Example 5
+## Example 4
     <p class="card__description__text">
         Lorem ipsum dolor...
     </p>
 
-## Example 6
+## Example 5
 > [!TIP]
 > What is a purpose of section? does it make sense to call it "card"?
 
@@ -75,22 +75,22 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
          </article>
     </section>
 
-## Example 7
+## Example 6
     .button--styled--disabled{
         background-color: orange;
     }
 
-## Example 8
+## Example 7
     <article class="card cat--card">
       ...
     </article>
 
-## Example 9
+## Example 8
     <article class="card card--dog card--dog--type1">
       ...
     </article>
 
-## Example 10
+## Example 9
     .card {
         border: solid 1px #000;
         max-width: 360px;
@@ -106,7 +106,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         justify-content: center;
     }
 
-## Example 11
+## Example 10
     .card--dog--type1 header{
         background-color: green;
     }
@@ -119,7 +119,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         background-color: orange;
     }
 
-## Example 13
+## Example 11
     <main class="main__flex-wrap">
         ...
     </main>
@@ -127,42 +127,42 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
 
     
-## Example 14
+## Example 12
     <section class="dog--flex">
         ...
     </section>
 
-## Example 15
+## Example 13
     <footer class="card__options">
       <div class="card__options-buttons">
        ...
       </div>
     </footer>
 
-## Example 16
+## Example 14
     <header class="">
         <h2 class="card__dog--poster">Dog Poster</h2>
         <h3 class="">Dog poster - 50nok</h3>
     </header>
 
-## Example 17
+## Example 15
     <header class="card__header">
         <h2 class="card__title--cat">NEW! Cat Poster</h2>
         <h3 class="card__subtitle">Cat poster - 50nok</h3>
     </header>
 
-## Example 18
+## Example 16
     <section class="catbox">
         ...
     </section>
 
-## Example 19
+## Example 17
     <button class="card_basked_button styled disabled">
         <span class="card_basket_button_icon">&#128722;</span>
         <span class="card_basket_button_text">Basket</span>
     </button>
 
-## Example 20
+## Example 18
     <header class="main_header">
         <h1>BEM</h1>
         <button class="styled disabled wishlist">
@@ -177,7 +177,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         <section>
     </main>
 
-## Example 21
+## Example 19
 > [!TIP]
 > Why it is not a good idea to style cards based on `nth-of-type(even)` in context of shopping cards?
 > In which context it will be a good idea?
@@ -186,7 +186,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         ...
     }
 
-## Example 22
+## Example 20
 > [!TIP]
 > Why it is not a good idea to create repetitive styles based on id?
 > In which context we should use ids?
@@ -195,12 +195,12 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         ...
     }
 
-## Example 23
+## Example 21
     <main class="main_flex-container">
         ...
     </main>
 
-## Example 24
+## Example 22
 > [!TIP]
 > BEM stands for block__element--modifier, is "cat" and "dog" an element? 
 
@@ -208,7 +208,7 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         ...
     </section>
 
-## Example 25
+## Example 23
 > [!TIP]
 > Let's assume that in some case it make sense to call a section "cat" or "dog", the section "cat" will consist of multiple cards of cats, and the section "dog" will consist of multiple cards of dogs. Let's not focuse here on BEM. Nevertheless, how could you improve on class naming?
 > 
@@ -217,17 +217,17 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         ...
     </section>
 
-## Example 26
+## Example 24
     .button__div1,
     .button__div2 {
         display: flex;
         flex-direction: row-reverse;
     }
 
-## Example 27
+## Example 25
 ![image](https://github.com/aniWeyn/advancedcss-bemmistakes/assets/23743322/57049158-a239-4853-aa76-c2cf63e443fe)
 
-## Example 28
+## Example 26
     header {
       background-color: hsl(180, 31%, 95%);
       ...
@@ -245,3 +245,6 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
     header>button:active {
       background-color: hsl(180, 29%, 50%);
     }
+
+## Example 27
+In what scenarios is it advantageous to use a class name that represents the animal, and in what scenarios would it be preferable to use a generic name like 'product_01' or 'product_02'?
