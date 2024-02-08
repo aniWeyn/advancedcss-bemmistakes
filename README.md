@@ -171,3 +171,12 @@ Propose better solution according to BEM to following examples
     .card:nth-of-type(even) .card_basked_button {
         ...
     }
+
+### Example 22
+> [!TIP]
+> Why it is not a good idea to create repetitive styles based on id?
+> In which context we should use ids?
+
+    #wishlist {
+        ...
+    }
