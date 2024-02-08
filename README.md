@@ -35,12 +35,6 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
     </header>
 > [!NOTE]
 > this solution can be correct in case class `card_header` consist of some styles that cannot be inherit and needed to be specified and are shared between all headers
-    
-## Example 2
-    <button class="btn btn--primary button--disabled" name="favorite">
-        <span>🚀 </span>
-        <span> Add to basket </span>
-    </button>
 
 ## Example 3
     .card--dog {
