@@ -165,7 +165,8 @@ Propose better solution according to BEM to following examples
 
 ### Example 21
 > [!TIP]
-> Why it is not a good idea to style cards based on `nth-of-type(even)`
+> Why it is not a good idea to style cards based on `nth-of-type(even)` in context of shopping cards?
+> In which context it will be a good idea?
 
     .card:nth-of-type(even) .card_basked_button {
         ...
