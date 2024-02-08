@@ -119,12 +119,6 @@ If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-she
         background-color: orange;
     }
 
-## Example 12
-    <button class="btn btn--primary btn--disabled" name="favorite">
-      <span>🚀 </span>
-      <span> Add to basket </span>
-    </button>
-
 ## Example 13
     <main class="main__flex-wrap">
         ...
