@@ -202,3 +202,10 @@ Propose better solution according to BEM to following examples
     <section class="cat">
         ...
     </section>
+
+### Example 26
+    .button__div1,
+    .button__div2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
