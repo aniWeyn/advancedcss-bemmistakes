@@ -209,3 +209,25 @@ Propose better solution according to BEM to following examples
         display: flex;
         flex-direction: row-reverse;
     }
+
+### Example 27
+![image](https://github.com/aniWeyn/advancedcss-bemmistakes/assets/23743322/57049158-a239-4853-aa76-c2cf63e443fe)
+
+### Example 28
+    header {
+      background-color: hsl(180, 31%, 95%);
+      ...
+    }
+
+    header>button {
+      border: none;
+      ...
+    }
+
+    header>button:hover {
+       background-color: hsl(180, 25%, 73%);
+    }
+
+    header>button:active {
+      background-color: hsl(180, 29%, 50%);
+    }
