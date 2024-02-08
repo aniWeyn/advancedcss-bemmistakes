@@ -1,4 +1,4 @@
-# BEM Mistakes
+# BEM in practice
 
 Below you can see examples of code and style from class exercises: 
 - *Week 4 - Exercise 01 - Applying BEM and styling*
