@@ -10,6 +10,26 @@ Propose better solution according to BEM to following examples
         <h3 class="card card__h3">Volvo</h3>
     </header>
 
+#### Solution 1:
+    <header class="card__header">
+        <h2 class="card__header--title">Cars</h2>
+        <h3 class="card__header--subtitle">Fiat</h3>
+        <h3 class="card__header--subtitle">Opel</h3>
+        <h3 class="card__header--subtitle">Volvo</h3>
+    </header>
+> [!NOTE]
+> block: card, element: header, modifier: title/subtitle
+
+#### Solution 2:
+    <header class="card__header">
+        <h2 class="card__header card__header--title">Cars</h2>
+        <h3 class="card__header card__header--subtitle">Fiat</h3>
+        <h3 class="card__header card__header--subtitle">Opel</h3>
+        <h3 class="card__header card__header--subtitle">Volvo</h3>
+    </header>
+> [!NOTE]
+> this solution can be correct in case class `card_header` consist of some styles that cannot be inherit and needed to be specified and are shared between all headers
+    
 ### Example 2
     <button class="btn btn--primary button--disabled" name="favorite">
         <span>🚀 </span>
