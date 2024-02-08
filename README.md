@@ -138,3 +138,35 @@ Propose better solution according to BEM to following examples
     </header>
 
 ### Example 18
+    <section class="catbox">
+        ...
+    </section>
+
+### Example 19
+    <button class="card_basked_button styled disabled">
+        <span class="card_basket_button_icon">&#128722;</span>
+        <span class="card_basket_button_text">Basket</span>
+    </button>
+
+### Example 20
+    <header class="main_header">
+        <h1>BEM</h1>
+        <button class="styled disabled wishlist">
+            <span>🚀</span>
+            <span>Wish list</span>
+        </button>
+    </header>
+    </header>
+
+    <main class="main">
+        <section>
+        <section>
+    </main>
+
+### Example 21
+> [!TIP]
+> Why it is not a good idea to style cards based on `nth-of-type(even)`
+
+    .card:nth-of-type(even) .card_basked_button {
+        ...
+    }
