@@ -49,7 +49,7 @@ Propose better solution according to BEM to following examples
         <article class="card article__dog">
             <aside class="article__dog aside">
                 <figure class="article__dog figure">
-                    <img src="https://placedog.net/200/300?id=89" alt="Dummy Image" class="" />
+                    <img src="..." alt="Dummy Image" class="" />
                 </figure>
              </aside>
          </article>
