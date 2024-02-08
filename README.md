@@ -180,3 +180,25 @@ Propose better solution according to BEM to following examples
     #wishlist {
         ...
     }
+
+### Example 23
+    <main class="main_flex-container">
+        ...
+    </main>
+
+### Example 24
+> [!TIP]
+> BEM stands for block__element--modifier, is "cat" and "dog" an element? 
+
+    <section class="card-section__cats">
+        ...
+    </section>
+
+### Example 25
+> [!TIP]
+> Let's assume that in some case it make sense to call a section "cat" or "dog", the section "cat" will consist of multiple cards of cats, and the section "dog" will consist of multiple cards of dogs. Let's not focuse here on BEM. Nevertheless, how could you improve on class naming?
+> 
+
+    <section class="cat">
+        ...
+    </section>
