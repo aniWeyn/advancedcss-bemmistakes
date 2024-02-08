@@ -39,8 +39,12 @@ Propose better solution according to BEM to following examples
     </p>
 
 ### Example 6
-Tip 1: what is a purpose of section? does it make sense to call it "card"?
-Tip 2: there are more mistakes
+> [!TIP]
+> What is a purpose of section? does it make sense to call it "card"?
+
+> [!TIP]
+> There are more mistakes to fix here :)
+
     <section class="card">
         <article class="card article__dog">
             <aside class="article__dog aside">
