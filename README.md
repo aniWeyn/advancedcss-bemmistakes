@@ -6,7 +6,7 @@ Below you can see examples of code and style from class exercises:
 
 **Discuss** in groups of two below examples and **propose better solution** according to BEM principles if needed. 
 
-If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-sheet.9elements.com/) 
+If you need help feel free to use [BEM Naming Cheat Sheet](https://bem-cheat-sheet.9elements.com/) or discuss it on MS Teams -> Team: AdvancedCSS 2024 -> Channel: [General](https://teams.microsoft.com/l/channel/19%3AGcJsLef6WAE6qb-9gr01mLK-AJ8W7tCQaUsF15g5AJs1%40thread.tacv2/General?groupId=05ca134d-fae1-48db-b017-a4769681310d&tenantId=09a10672-822f-4467-a5ba-5bb375967c05)
 
 ## Example 1
     <header class="card card__header">
